@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ronen/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.0.0/support-v4-19.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="afee690af14bd2c32d400cdf78e746fd45c386fa">
+        <dex dex="/home/ronen/AndroidStudioProjects/ImageryMedical/app/build/intermediates/pre-dexed/debug/support-v4-19.0.0-c097f3a302ac915b131b02a412b509a6b6b095f1.jar" />
+    </item>
+    <item
+        jar="/home/ronen/AndroidStudioProjects/ImageryMedical/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/ronen/AndroidStudioProjects/ImageryMedical/app/build/intermediates/pre-dexed/debug/volley-9cbf4c7df7328c875cd093b10743ae6d7db94b67.jar" />
+    </item>
+    <item
+        jar="/home/ronen/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/ronen/AndroidStudioProjects/ImageryMedical/app/build/intermediates/pre-dexed/debug/gson-2.2.4-45be84d700159fecf47aaafcb13aa0c7bffa57d8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Aplicação-->
+    <color name="list_item_title">#d7ddee</color>
+    <color name="list_background">#1a1b1d</color>
+    <color name="list_background_pressed">#131315</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="black">#000000</color>
+    <color name="grid_bg">#000000</color>
+    <color name="grid_item_bg">#1a1b1d</color>
+    <color name="action_bar">#141416</color>
+    <color name="action_bar_title">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="settings_label">#323232</color>
+
+    <!--Login-->
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+</resources>

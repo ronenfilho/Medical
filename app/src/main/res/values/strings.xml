@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Aplicação-->
+    <string name="app_name">Imagery Medical</string>
+    <string name="action_settings">Home</string>
+    <!--<string name="nav_drawer_recently_added">Novos</string>-->
+    <string name="toast_saved">Wallpapaer saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpapaer updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+    <string name="splash_error">Unable to download wallpapers. Verify your google\'s user name in settings or device doesn\'t have internet connection!</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="msg_unknown_error">Sorry! Unknown error occurred.</string>
+    <string name="msg_wall_fetch_error">Sorry! Unable to fetch wallpaper(s). Verify app settings or device doesn\'t have internet connection.</string>
+    <string name="toast_enter_google_username">Please enter google username</string>
+    <string name="toast_enter_valid_grid_columns">Please enter valid number of columns</string>
+    <string name="toast_enter_gallery_name">Please enter gallery directory name</string>
+    <string name="lbl_google_username">Identificação do Google</string>
+    <string name="lbl_no_grid_columns">Número de colunas</string>
+    <string name="lbl_gallery_name">Diretório da galeria</string>
+    <string name="lbl_btn_save">Salvar</string>
+    <string name="btn_Imagens">Ver Imagens por categoria</string>
+
+
+    <!--Login-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Nome completo</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTRAR</string>
+    <string name="btn_link_to_register">Não é usuário? Registrar.</string>
+    <string name="btn_link_to_login">Já tenho registro! Acessar.</string>
+    <string name="welcome">Bem Vindo</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Nome completo</string>
+    <string name="lbl_loginTopo">Apresenta imagens de Raio x para apoiar no diagnóstico de pneumonia na infância</string>
+
+</resources>

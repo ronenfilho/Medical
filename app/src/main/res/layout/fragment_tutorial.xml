@@ -1,0 +1,322 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pew="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParallaxDemo$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_Tutorial"
+                android:textSize="20dp"
+                android:id="@+id/titulo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="29dp"
+                android:textIsSelectable="false"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Você provavelmente já viu um raio-x torácico (radiografia do peito) ou até já chegou a fazer um. Mas como será que se lê um raio-x do tórax? Aqui está uma abordagem rápida e fácil que utiliza apenas alguns passos simples de fazer."
+            android:id="@+id/text1"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical|right"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ao olhar para uma radiografia, lembre-se de que é uma representação bidimensional de um corpo tridimensional. Altura e largura são mantidas, mas a profundidade se perde. O lado esquerdo da imagem representa o lado direito do indivíduo, e vice-versa. O ar aparece em preto, a gordura aparece em cinza, tecidos mais finos e a água aparecem como tons claros de cinza, e ossos e metais aparecem em branco. Quanto mais denso o tecido, mais branco ele aparecerá no raio-x. Tecidos mais densos costumam aparecer opacos e claros nas imagens; já os tecidos menos densos aparecem translúcidos e escuros."
+            android:id="@+id/text2"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical|right"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Passos"
+            android:id="@+id/textView2"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/img1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1) Confira o nome do paciente. Antes de mais nada, confira se você está olhando para o raio-x torácico certo."
+            android:id="@+id/textView3"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/img2"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2) Leia a data da radiografia torácica. Preste bem atenção nas datas quando comparar com radiografias antigas (sempre olhe as radiografias antigas, se disponíveis). A data em que a radiografia é tirada fornece importantes informações e contexto para interpretação e descobertas. Por exemplo, uma massa que tenha aumentando em 3 meses é mais significante do que uma que tenha aumentado em 3 anos."
+            android:id="@+id/textView4"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/img4"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3)Observe o tipo de imagem (além do raio-x convencional, pode-se praticar a interpretação de imagens de uma foto comum, de uma tomografia computadorizada, um angiografia, ressonância magnética, etc). Para raios-x, existem diversas visualizações, tais como:
+A visualização padrão do tórax é a radiografia póstero-anterior, ou “tórax PA”. O póstero-anterior refere-se à direção do raio-x atravessando o paciente da frente para trás. Esta imagem é tirada com o paciente na vertical, praticamente em pé, em plena inspiração (com os pulmões cheios de ar), e com a máquina de raio-x na horizontal a 1,8 metros do filme.
+A radiografia do tórax antero-posterior (AP) é obtida com a máquina de raio-x atravessando o paciente da frente para trás, normalmente obtida com um raio-x portátil para pacientes muito doentes, aqueles incapazes de se levantar, e bebês. Já que o raio-x portátil tende a ser menos potente do que máquinas normais, as radiografias AP são geralmente tiradas a uma distância menor do filme, comparadas às radiografias PA. Quanto mais longe estiver a fonte dos raios-x do filme, mais nítida e menos ampliada fica a imagem. (Você pode confirmar isso colocando sua mão a uns 8cm de uma mesa, acendendo uma lâmpada acima dela em diferentes distâncias e observando as sombras. A sombra será mais nítida e menos ampliada se a lâmpada estiver distante). Sendo as radiografias AP tiradas de uma distância curta, as imagens aparecerão mais ampliadas e menos nítidas comparadas às imagens PA padrão.
+A radiografia torácica lateral é tirada com o lado esquerdo do tórax do paciente encostado no filme do raio-x (lado esquerdo ao invés do direito para fazer o coração aparecer mais nítido e menos ampliado, já que ele fica mais próximo do lado esquerdo do peito). É tirado com a máquina a 1,8 metros de distância, assim como na visão PA.
+Uma vista oblíqua é obtida girando-se a imagem entre a vista frontal padrão e a vista lateral. É útil para localizar lesões e eliminar estruturas sobrepostas nas imagens.
+Uma vista decúbito lateral é obtida com o paciente deitado de lado. Isso ajuda a determinar se a suspeita de fluido (derrame pleural) está correta, pois o líquido irá assentar para o fundo, ou para confirmar a suspeita de ar (pneumotórax), porque o mesmo vai subir. Por exemplo: se há suspeita de fluido pleural no pulmão esquerdo, faça uma imagem decúbito lateral esquerda (permitindo que o fluido assente do lado esquerdo). Se a suspeita é de ar no pulmão esquerdo, faça uma imagem decúbito lateral direita (permitindo que o ar suba para o lado esquerdo)."
+            android:id="@+id/textView5"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/img5"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4) Fique atento aos sinais: ‘E’ para Esquerdo, ‘D’ para Direito, ‘PA’ para Póstero-Anterior, etc. Observe também a posição do paciente: inerte (deitado), vertical, lateral, decúbito."
+            android:id="@+id/textView6"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/img6"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5) Repare na qualidade do material do filme.
+Exposição: filmes superexpostos ficam mais escuros do que o normal, tornando os detalhes menores mais difíceis de enxergar; já os filmes sem exposição suficiente parecem mais brancos que o normal, o que gera um efeito opaco geral. Procure por corpos estranhos entre as vértebras em um raio-x com penetração apropriada. Um raio-x sem penetração suficiente não permite a distinção entre corpos estranhos entre as vértebras dos espaços entre as mesmas. Já em um raio-x com uma boa penetração, os espaços entre as vértebras ficam bem visíveis.
+Para avaliar a exposição do raio-x, olhe para a coluna vertebral atrás do coração na visão frontal. Se for possível ver a coluna detalhada e os vasos do pulmão atrás do coração, a exposição está correta. Se somente a coluna estiver visível, mas não os vasos pulmonares, o filme está muito escuro (superexposto). Se a coluna não estiver visível, o filme está muito branco (sem exposição suficiente).
+Movimento: Ele aparece como áreas borradas. É difícil encontrar um pneumotórax discreto se o paciente se mexer demais.
+Rotação: Significa que o paciente não ficou só deitado ou em pé durante o raio-x, o qual vai apresentar um plano do peito girado comparado com o resto do filme. Isso causa uma distorção, pois os pulmões podem parecer assimétricos e a silhueta cardíaca, desorientada. Procure ver se os pulmões direito e esquerdo têm mais ou menos o mesmo diâmetro, e se as pontas das costelas (final da área calcificada de cada costela) estão no mesmo lugar na parede do tórax, o que indica a ausência de uma rotação maior. Caso contrário, o lado que foi levantado aparece mais estreito e mais denso (mais branco) e a silhueta cardíaca aparece mais no campo oposto do pulmão."
+            android:id="@+id/textView7"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/img7"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6) Vias Respiratórias: Procure conferir se as vias respiratórias estão evidentes e alinhadas. Por exemplo, em um pneumotórax hipertensivo, as vias respiratórias estão desviadas para longe do lado afetado. Procure a quinta vértebra torácica, onde a traquéia bifurca (se divide) entre os brônquios direito e esquerdo."
+            android:id="@+id/textView8"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/img8"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="7) Ossos: Procure nos ossos qualquer tipo de fratura, lesão ou defeito. Repare no tamanho total, formato e contorno de cada osso, densidade e mineralização (ossos osteopênicos parecem finos e menos opacos), espessura cortical em comparação com a cavidade medular, padrão trabecular, presença de qualquer erosão, fraturas, áreas líticas ou blásticas. Fique atento a lesões Lucent e escleróticas. Uma lesão Lucent é uma área no osso com pouca densidade (parecendo escura); pode parecer que está para fora em comparação ao resto do osso. Já uma lesão esclerótica é uma área no osso com muita densidade (parecendo mais branca). Nas articulações, procure por estreitamento no espaço entre elas, ou alargamento, calcificação na cartilagem, ar no espaço entre as articulações, acúmulos anormais de gordura, etc."
+            android:id="@+id/textView9"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView8"
+            android:src="@drawable/img9"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="8) Silhueta cardíaca: Observe o tamanho da silhueta cardíaca (espaço branco representando o coração, situado entre os pulmões). Uma silhueta cardíaca normal ocupa menos da metade da largura do peito.
+Fique de olho em um coração com forma de garrafa d’água em uma imagem PA plana, o que indica derrame pericárdico. Faça uma ultrassonografia ou tomografia computadorizada do tórax para confirmar."
+            android:id="@+id/textView10"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView9"
+            android:src="@drawable/img10"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9) Diafragmas: Observe se o diafragma está plano ou elevado. Um diafragma achatado pode indicar enfisema. Um diafragma elevado pode indicar uma área com ar consolidado (como na pneumonia), fazendo com que o campo inferior do pulmão fique indistinguível na densidade do tecido em comparação com o abdômen. O diafragma direito é normalmente mais elevado do que o esquerdo, devido à presença do fígado abaixo do diafragma direito. Também olhe o ângulo costofrênico (que deve ser nítido), prestando atenção a qualquer parte menos nítida, o que pode indicar derrame (como fluido se assentando). São necessários cerca de 300-500 ml de fluido para diminuir a nitidez do ângulo costofrênico."
+            android:id="@+id/textView11"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView10"
+            android:src="@drawable/img11"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="10) Bordas do coração; tecidos moles externos(como músculos e órgãos, por exemplo): Veja as bordas do coração conferindo o sinal encontrado na silhueta do mesmo: uma radio-opacidade escurecendo a margem do coração no lobo médio direito e pneumonia lingular esquerda, por exemplo. Também procure conferir os tecidos moles externos para ver se não há qualquer anormalidade. Veja os linfonodos para verificar a presença de enfisema subcutâneo (densidade de ar abaixo da pele) e outras lesões."
+            android:id="@+id/textView12"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView11"
+            android:src="@drawable/img12"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="11) Área dos pulmões: Observe a simetria, vascularidade, presença de alguma massa, nódulos, infiltrações, fluido, prisão dos brônquios, etc. Se fluido, muco, tumor, ou etc., preencher os sacos aéreos, os pulmões parecerão densos (brilhantes), com marcas intersticiais menos visíveis."
+            android:id="@+id/textView13"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView12"
+            android:src="@drawable/img13"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="12) Bolha gástrica: Procure a presença de uma bolha gástrica, logo abaixo do coração; perceba se está obscura ou ausente. Avalie a quantidade de gás e localização da bolha gástrica. Bolhas de gás normais também podem ser vistas nas flexuras hepática e esplênica do cólon."
+            android:id="@+id/textView14"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView13"
+            android:src="@drawable/img14"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="13) Hilos: Fique atento a nódulos ou massas nos hilos de ambos os pulmões. Na visão frontal, a maioria das sombras nos hilos representam as artérias pulmonares. A artéria pulmonar esquerda está sempre mais elevada do que a direita, o que deixa os hilos esquerdos mais altos. Procure por linfonodos calcificados nos hilos, o que pode ser causado por uma antiga infecção de tuberculose."
+            android:id="@+id/textView15"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView14"
+            android:src="@drawable/img15"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="14) Instrumentos médico-cirúrgicos: Preste atenção em qualquer tipo de tubo (por exemplo, o traqueal nasogástrico), tubos de soro ou outras substâncias administradas por vias intravenosas, resquícios de chumbo deixados por eletrocardiogramas, marcapasso, clipes ou drenos cirúrgicos, próteses, etc."
+            android:id="@+id/textView16"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>

@@ -18,6 +18,8 @@ public class MainActivityLogin extends Activity {
 	private TextView txtEmail;
 	private Button btnLogout;
     private Button btnImagens;
+    private Button btnEstudoCaso;
+    private Button btnTutorial;
 
 	private SQLiteHandler db;
 	private SessionManager session;
@@ -31,6 +33,8 @@ public class MainActivityLogin extends Activity {
 		txtEmail = (TextView) findViewById(R.id.email);
 		btnLogout = (Button) findViewById(R.id.btnLogout);
         btnImagens = (Button) findViewById(R.id.btnImagens);
+        btnEstudoCaso = (Button) findViewById(R.id.btnEstudoCaso);
+        btnTutorial = (Button) findViewById(R.id.btnTutorial);
 
 		// SqLite database handler
 		db = new SQLiteHandler(getApplicationContext());
@@ -69,6 +73,24 @@ public class MainActivityLogin extends Activity {
                 imagens();
             }
         });
+
+        // Tutorial button click event
+        btnTutorial.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                tutorial();
+            }
+        });
+
+        // Estudo de casos button click event
+        btnEstudoCaso.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                estudoDeCaso();
+            }
+        });
 	}
 
 	/**
@@ -92,6 +114,26 @@ public class MainActivityLogin extends Activity {
         // Launching the imagens(Main) activity
         Intent intent = new Intent(MainActivityLogin.this, SplashActivity.class);
         startActivity(intent);
+        finish();K
+    }
+    /**
+     * Acesso a activity de tutorial
+     * */
+    private void tutorial() {
+        // Launching the imagens(Main) activity
+        Intent intent = new Intent(MainActivityLogin.this, TutorialActivity.class);
+        startActivity(intent);
         finish();
     }
+    /**
+     * Acesso a activity de estudo de casos
+     * */
+    private void estudoDeCaso() {
+        // Launching the imagens(Main) activity
+        Intent intent = new Intent(MainActivityLogin.this, EstudoDeCasoActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+
 }

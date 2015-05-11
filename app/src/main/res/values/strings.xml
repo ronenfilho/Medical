@@ -21,7 +21,12 @@
     <string name="lbl_no_grid_columns">Número de colunas</string>
     <string name="lbl_gallery_name">Diretório da galeria</string>
     <string name="lbl_btn_save">Salvar</string>
-    <string name="btn_Imagens">Ver Imagens por categoria</string>
+    <string name="btn_Tutorial">Como Ler um Raio X do Tórax</string>
+    <string name="btn_Estudo">Estudo de Caso</string>
+    <string name="btn_Imagens">Ver Imagens por Categoria</string>
+    <string name="lbl_Tutorial">Como Ler um Raio X do Tórax</string>
+    <string name="lbl_Estudo">Estudo de Caso</string>
+    <string name="lbl_Imagens">Ver Imagens por Categoria</string>
 
 
     <!--Login-->
@@ -36,5 +41,8 @@
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Nome completo</string>
     <string name="lbl_loginTopo">Apresenta imagens de Raio x para apoiar no diagnóstico de pneumonia na infância</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_estudo_de_caso">EstudoDeCasoActivity</string>
 
 </resources>

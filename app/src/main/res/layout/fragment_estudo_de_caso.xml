@@ -1,0 +1,117 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pew="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParallaxDemo$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_Estudo"
+                android:textSize="20dp"
+                android:id="@+id/titulo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="29dp"
+                android:textIsSelectable="false"
+                android:textStyle="bold"
+                android:gravity="center|center_vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="ANAMNESE"
+                android:id="@+id/subTitulo"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="IDENTIFICAÇÃO: RSC, 2 anos, sexo feminino, natural e procedente de Nazaré – BA."
+            android:id="@+id/text1"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.88"
+                android:text="QUEIXA PRINCIPAL: Febre alta e adinamia há 15 dias."
+                android:id="@+id/text2"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="HMA: Há 15 dias paciente iniciou quadro de febre alta (39oC), associado a adinamia, anorexia, sonolência e aumento progressivo do volume abdominal. No mesmo período apresentou tosse produtiva porém sem expectoração, além de edema em pés. Nega vômitos, diarréia, sangramentos ou alterações urinárias. Genitora levou a criança ao Hospital Gonçalves Martins onde foi tratada para pneumonia (SIC) e realizou parasitológico de fezes que revelou Giárdia e Ancilostomídeo."
+            android:id="@+id/text3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="IS: Não contribuitório."
+            android:id="@+id/text4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="AM: Nega viroses da infância, tuberculose, hepatites, cardiopatias, hemotransfusões, intervenções cirúrgicas e alergia medicamentosa."
+            android:id="@+id/text5"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="AF: Não contribuitório."
+            android:id="@+id/text6"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="AO: GenitoraG1 P1 A0, gestação sem intercorrências, realizado pré-natal, parto normal a termo, criança chorou ao nascer. Peso 2300 g, genitora não fumou nem ingeriu bebidas alcoólicas na gestação."
+            android:id="@+id/text7"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
